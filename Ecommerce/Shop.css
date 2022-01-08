@@ -1,0 +1,58 @@
+.shop{
+
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+
+@media (min-width: 768px)
+{
+.container {
+    max-width: 720px;
+}
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sidebar__categories {
+    margin-bottom: 50px;
+}
+
+.sidebar__categories .section-title {
+    margin-bottom: 35px;
+}
+.accordion>.card:not(:last-of-type) {
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.categories__accordion .card {
+    border: none;
+    border-radius: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f2f2f2 !important;
+    margin-bottom: 12px;
+}
+.accordion>.card {
+    overflow: hidden;
+}
+.card {
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
+.categories__accordion .card-heading {
+    cursor: pointer;
+}

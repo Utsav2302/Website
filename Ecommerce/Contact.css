@@ -1,0 +1,42 @@
+.contact{
+	padding-bottom: 80px;
+	padding-top: 80px;
+	box-sizing: border-box;
+}
+
+@media (min-width: 768px){
+.container {
+    max-width: 720px;
+}
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.contact__address {
+    margin-bottom: 45px;
+}
+
+.contact__address ul li {
+  
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.fa-map-marker{
+    color: red;
+}
+.fa-phone{
+    color: red;
+}
+
+.fa-headphones{    color: red;
+}
+
+.contact_form{
+	margin-top: 80px;
+}
